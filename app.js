@@ -1,15 +1,15 @@
 // Full Documentation - https://docs.turbo360.co
-const vertex = require('vertex360')({site_id: process.env.TURBO_APP_ID})
+const vertex = require('vertex360')({ site_id: process.env.TURBO_APP_ID })
 const express = require('express')
 
 const app = express() // initialize app
 
 const config = {
-	views: 'views', 	// Set views directory
-	static: 'public', 	// Set static assets directory
-	logging: true,
-	controllers: require('./controllers'),
-	db: vertex.nedb()
+    views: 'views', // Set views directory
+    static: 'public', // Set static assets directory
+    logging: true,
+    controllers: require('./controllers'),
+    db: vertex.nedb()
 }
 
 vertex.configureApp(app, config)
@@ -17,8 +17,8 @@ app.use(vertex.setContext(process.env)) // set CDN and global object on 'req.con
 
 // import routes
 const page = require('./routes/page')
-const vertexRouters = require('./routes/vertex')
 const main = require('./routes/main')
+const vertexRouters = require('./routes/vertex')
 
 // set routes
 // app.use('/', page)

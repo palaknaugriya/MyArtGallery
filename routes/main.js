@@ -4,11 +4,10 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
     const data = {
-        greeting: 'Hello! Welcome to my portfolio site',
-        introduction: "I am a backend developer"
+        greeting: 'Hi',
+        introduction: 'I am a backend devoloper'
     }
-    res.render('landing');
-})
-
+    res.render('landing', data);
+});
 
 module.exports = router
