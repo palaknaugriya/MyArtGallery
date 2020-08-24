@@ -1,19 +1,17 @@
 {
     "hero": {
         "greeting": "Welcome!",
-        "introduction": "Palak Gupta of the House of Ravenclaw, first of her name, loves to write, paint and code. Happy and a liitle bit of everything different.",
+        "introduction": "Palak Gupta of the House of Ravenclaw, first of her name, loves to write, paint and code. Happy and a little bit of everything different.",
         "img_background": "https://lh3.googleusercontent.com/P27dooc0AlcvMmnUkQ_cN7ZLnlSOh-hPy-3fTlygk5nPufRWNg7yqglu2uDuuQzJrjpyK6d1jq9hySWPtRy--9teQ2k",
         "img_profile": "https://lh3.googleusercontent.com/dF7KgfLug1HKYi5noM6kC8uxdM5i33TvqRnx26P9mL5RRIqwSB5-_5Kq3XVdjAZAbN30HwbNec_WE9tMRM94xIH7dQ"
     },
     "projects": {
         "header": "My Art Gallery",
-        "sub_header": "Sometimes its the simple joys like indulging into arts, drinking lots of coffee, reading a  book and listening to good music that can be such incredible healing. Take a look at my most recent work."
+        "sub_header": "Sometimes its the simple joys like indulging into arts, drinking lots of coffee, reading a  book and listening to good music that can be such incredible healing. Well, I found mine :)",
+        "sub_sub_header": "Take a look at my work!"
     },
-    "image_profile": "https://www.google.com/search?q=bill+gates&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjB0J_Yla_rAhXvzzgGHdCMB7MQ_AUoAnoECCIQBA&cshid=1598111774788849&biw=1366&bih=625#imgrc=UcdqTZniY2bADM",
-    "greeting": "Hi",
-    "introduction": "I am a backend devoloper",
-    "languages": [
-        { "name": "Javascript", "years": "1" },
-        { "name": "Python", "years": "3" }
-    ]
+    "contact": {
+        "header": "Let's Collaborate!",
+        "sub_header": "If you're interested in showcasing your work on this platform, fill out the form below and I will get back to you right away!"
+    }
 }
