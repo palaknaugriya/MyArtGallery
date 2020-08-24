@@ -17,7 +17,6 @@ const props = {
     slug: { type: String, default: '', immutable: true },
     preview: { type: String, default: '' },
     link: { type: String, default: '' },
-    client: { type: String, default: '' },
     dateRange: { type: String, default: '' },
     description: { type: String, default: '', isHtml: true },
     schema: { type: String, default: 'project', immutable: true },
